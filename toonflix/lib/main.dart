@@ -130,7 +130,7 @@ class App extends StatelessWidget {
                   ),
                 ),
                 Transform.translate(
-                  offset: const Offset(0, -40),
+                  offset: const Offset(0, -20),
                   child: const CurrencyCard(
                     name: 'Dollar',
                     code: 'USD',
@@ -138,7 +138,7 @@ class App extends StatelessWidget {
                     icon: Icons.attach_money_outlined,
                     isInverted: false,
                   ),
-                )
+                ),
               ],
             ),
           ),
